@@ -17,3 +17,14 @@ if keyboard_check(vk_left){
 image_angle = direction // image_angle modifica o angulo do sprite
 
 move_wrap(true, true, 0); // move_wrap(hor, vert, margin);
+
+if keyboard_check_pressed(vk_space){	// Checa se a tecla foi pressionada
+	var inst = instance_create_layer(x, y, "Instances", obj_bullet);
+	// Cria a instância de algum objeto, selecionando o ponto x e y
+	// Instances entre aspas indica a layer onde será criada a instância
+	// var cria a variável local inst que recebe o valor da instância criada
+	inst.speed = 7;
+	inst.direction = direction; // igual a direção da var inst à direção da nave
+	inst.image_angle = direction; // rotaciona o sprite do projétil
+}	
+	
