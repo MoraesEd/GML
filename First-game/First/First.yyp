@@ -4,6 +4,8 @@
   "name": "First",
   "resources": [
     {"id":{"name":"spr_stopped_ship","path":"sprites/spr_stopped_ship/spr_stopped_ship.yy",},"order":0,},
+    {"id":{"name":"obj_asteroid","path":"objects/obj_asteroid/obj_asteroid.yy",},"order":2,},
+    {"id":{"name":"spr_asteroid","path":"sprites/spr_asteroid/spr_asteroid.yy",},"order":3,},
     {"id":{"name":"obj_ship","path":"objects/obj_ship/obj_ship.yy",},"order":0,},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},"order":1,},
     {"id":{"name":"spr_ship_moving","path":"sprites/spr_ship_moving/spr_ship_moving.yy",},"order":1,},
