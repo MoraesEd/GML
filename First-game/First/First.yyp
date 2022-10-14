@@ -5,6 +5,7 @@
   "resources": [
     {"id":{"name":"obj_medium_asteroid","path":"objects/obj_medium_asteroid/obj_medium_asteroid.yy",},"order":3,},
     {"id":{"name":"obj_small_asteroid","path":"objects/obj_small_asteroid/obj_small_asteroid.yy",},"order":4,},
+    {"id":{"name":"obj_kin_asteroid","path":"objects/obj_kin_asteroid/obj_kin_asteroid.yy",},"order":5,},
     {"id":{"name":"spr_stopped_ship","path":"sprites/spr_stopped_ship/spr_stopped_ship.yy",},"order":0,},
     {"id":{"name":"obj_asteroid","path":"objects/obj_asteroid/obj_asteroid.yy",},"order":2,},
     {"id":{"name":"spr_medium_asteroid","path":"sprites/spr_medium_asteroid/spr_medium_asteroid.yy",},"order":4,},
