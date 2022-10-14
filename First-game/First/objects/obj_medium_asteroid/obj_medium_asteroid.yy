@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_ship",
+  "name": "obj_medium_asteroid",
   "spriteId": {
-    "name": "spr_stopped_ship",
-    "path": "sprites/spr_stopped_ship/spr_stopped_ship.yy",
+    "name": "spr_medium_asteroid",
+    "path": "sprites/spr_medium_asteroid/spr_medium_asteroid.yy",
   },
   "solid": false,
   "visible": true,
@@ -25,8 +25,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
